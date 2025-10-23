@@ -1,6 +1,5 @@
 
-# CSS 파일에 지역 정보 섹션 스타일 추가
-css_updated = """* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -579,7 +578,7 @@ footer p {
     .share-buttons { flex-direction: column; }
     .apply-buttons { flex-direction: column; }
     #region-select { min-width: 100%; }
-}"""
+}
 
 with open('styles.css', 'w', encoding='utf-8') as f:
     f.write(css_updated)
