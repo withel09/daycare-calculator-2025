@@ -579,13 +579,3 @@ footer p {
     .apply-buttons { flex-direction: column; }
     #region-select { min-width: 100%; }
 }
-
-with open('styles.css', 'w', encoding='utf-8') as f:
-    f.write(css_updated)
-
-print("✅ styles.css 파일 업데이트 완료!")
-print(f"파일 크기: {len(css_updated):,} bytes")
-print("\n🎨 추가된 스타일:")
-print("  ✓ 지역 정보 섹션 스타일")
-print("  ✓ 드롭다운 선택 박스 스타일")
-print("  ✓ 지역 결과 표시 박스 스타일")
